@@ -8,7 +8,6 @@ app = Dash(__name__)
 # read the data
 df = pd.read_csv('Final_sales_output.csv')
 
-
 # create the visualization
 fig = px.line(df, x="date", y="Sales", title="Pink Morsel Sales")
 
