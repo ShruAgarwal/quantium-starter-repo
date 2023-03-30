@@ -9,8 +9,6 @@ colors = {
     "primary": "#FEDBFF",
     "secondary": "#D598EB",
     "font": "#581845"
-    # 'background': '#111111',
-    # 'text': '#7FDBFF'
 }
 
 # read the data
@@ -71,8 +69,6 @@ app.layout = html.Div(style={
             "background-color": colors["secondary"],
             "color": "#110366",
             "border-radius": "20px"
-            # 'textAlign': 'center',
-            # 'color': colors['text']
         }
     ),
 
