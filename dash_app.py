@@ -65,6 +65,7 @@ app.layout = html.Div(style={
     children=[
     html.H1(
         children='Pink morsels Visualizer',
+        id="header",
         style={
             "background-color": colors["secondary"],
             "color": "#110366",
